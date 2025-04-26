@@ -69,13 +69,13 @@ h3{
   padding-top:0;
   border-radius:50%;
   z-index:10;
-  border:1px solid black;
+  border:2px solid rgba(0,0,0,.5);
 }
 
 p{
-  font-size:2.6vw;
-  padding-left:9vw;
-  padding-right:9vw;
+  font-size:2.2vw;
+  padding-left:8vw;
+  padding-right:8vw;
   text-align:center;
 }
 
@@ -106,7 +106,7 @@ p{
 }
 
 .social :nth-of-type(3){
-  object-fit: cover;
+  background-color: white;
 }
 
 
