@@ -10,7 +10,7 @@
 
 
 body{
-  background:linear-gradient(#2f2c4a,#5f2c4a );
+  background:linear-gradient(#1f1c4b,#3e2a3a );
   background-attachment:fixed;
   min-height:100%;
   color:#d8d5f5;
@@ -70,7 +70,7 @@ h3{
 }
 
 p{
-  font-size:2vw;
+  font-size:1.8vw;
   padding-left:8vw;
   padding-right:8vw;
   text-align:center;
@@ -78,8 +78,10 @@ p{
 }
 
 #myprojects{
-  font-size:4vw;
+  font-size:3.5vw;
   text-align:center;
+  margin-top: 1.5vw;
+  margin-bottom: 1.9vw;
 }
 
 
