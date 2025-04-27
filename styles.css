@@ -112,7 +112,7 @@ p{
 #projects{
   display:flex;
   justify-content:space-evenly;
-  margin-bottom: 7vw;;
+  margin-bottom: 7vw;
 }
 
 .project{
@@ -123,9 +123,9 @@ p{
 
 .project-title{
   position:absolute;
-  top:0vw;
-  left: 10vw;
-  color:#dadafa;
+  top:-5.2vw;
+  left: 11vw;
+  color:#c7c4c4;
   transform: translate(-50%, -50%);
 }
 
