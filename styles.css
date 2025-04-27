@@ -1,7 +1,19 @@
 
-@media (max-width=100){
+
+
+
+
+.project:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+#socials img:hover {
+  transform: scale(1.09);
+  transition: transform 0.3s ease;
   
 }
+
+
 
 *{
   font-family:  monospace;
@@ -28,24 +40,19 @@ nav{
   width:100%;
   height:6%;
   justify-content:space-evenly;
-  background:#221c4b;
+  background:linear-gradient(#1f1c4b,#221E46);
   padding-bottom:.8vw;
 
 }
 
 #navbar a{
   margin-top:1vw;
-  display:fixed;
   font-size:1.6vw;
   color:#d8d5f5;
   text-decoration: none;
 }
 
 
-img.pic{
-  width:100px;
-  height:100px;
-}
 
 h1{
   margin-top:5vw;
@@ -100,7 +107,7 @@ p{
   justify-content:space-evenly;
 }
 
-#pic{
+.pict{
   width:23vw;
   height:26vw;
   margin:auto;
@@ -125,16 +132,21 @@ p{
 
 .project{
   position:relative;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  padding-bottom: 0vw;
 }
+
 
 
 
 .project-title{
   position:absolute;
-  top:-5.2vw;
-  left: 11vw;
+  top: 20vw;
+  left: 11.2vw;
   color:#b9b9b9;
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 h2{
@@ -145,9 +157,9 @@ h2{
 .box{
   width: 97vw;
   height: 28vw;
-  background-color: rgba(362,362,362,.03);
+  background-color: rgba(255,255,255,.03);
   position:absolute;
   border-radius: 12px;
-  top:93.95vw;
+  top:95.98vw;
   left: 1.07vw;
 }
