@@ -28,6 +28,17 @@ body{
   color:#d8d5f5;
 }
 
+#switchpic{
+  height:3.5vw;
+  width:3.5vw;
+  
+}
+#lightswitch{
+  color: transparent;
+  border: none;
+  background-color: transparent;
+}
+
 
 nav{
   display:flex;
