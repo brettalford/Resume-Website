@@ -1,4 +1,14 @@
+@media (max-width: 600px) {
+  .project-title {
+    font-size: 1.2rem; 
+  }
+}
 
+@media (max-width: 600px) {
+  .box {
+    display: none;
+  }
+}
 
 
 
