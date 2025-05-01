@@ -1,6 +1,7 @@
 @media (max-width: 600px) {
   .project-title {
     font-size: 1rem; 
+    top:17vw;
   }
 }
 
