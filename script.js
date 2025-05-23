@@ -2,6 +2,7 @@
 const bodycol=document.querySelector("body");
 const nav=document.querySelector("nav");
 const navtext=document.querySelectorAll("#navbar a");
+
 let colorindex=0;
 
 function changecolor(){
