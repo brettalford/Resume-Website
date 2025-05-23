@@ -4,7 +4,7 @@
 
 
 .project:hover {
-  transform: translateY(-5px) scale(1.05);
+  transform: translateY(-5px) scale(1.0);
 }
 
 #socials img:hover {
@@ -53,6 +53,7 @@ nav{
   justify-content:space-evenly;
   background:linear-gradient(#1f1c4b,#221E46);
   padding-bottom:.8vw;
+  z-index: 10;
 
 }
 
@@ -168,9 +169,17 @@ h2{
 .box{
   width: 97vw;
   height: 28vw;
-  background-color: rgba(190,190,190,.3);
+  background-color: rgba(190,190,190,.35);
   position:absolute;
   border-radius: 12px;
-  top:97.9vw;
+  left: 1.07vw;
+}
+
+.box2{
+  width: 97vw;
+  height: 28vw;
+  background-color: rgba(190,190,190,.35);
+  position:absolute;
+  border-radius: 12px;
   left: 1.07vw;
 }
