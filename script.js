@@ -12,7 +12,7 @@ function changecolor(){
         nav.style.background="linear-gradient(#e0e8f5,#E4E9F3)";
         bodycol.style.backgroundAttachment = "fixed";
         navtext.forEach(link=>{
-            link.style.color="#272a0a";
+            link.style.color="#26465f";
         })
     }
     else{
