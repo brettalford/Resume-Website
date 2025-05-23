@@ -5,6 +5,17 @@ const navtext=document.querySelectorAll("#navbar a");
 
 let colorindex=0;
 
+const copyEmailBtn = document.getElementById('copy-email-btn');
+  copyEmailBtn.addEventListener('click', () => {
+    const email = 'brettalford1@gmail.com';
+    navigator.clipboard.writeText(email).then(() => {
+      alert('Email copied to clipboard');
+    }).catch(() => {
+      alert('Failed to copy email.');
+    });
+  });
+
+
 function changecolor(){
     if(colorindex<1){
         colorindex++;
